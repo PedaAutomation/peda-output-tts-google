@@ -4,5 +4,5 @@ module.exports = (slave) ->
   slave.setType "output"
   slave.setName "tts"
 
-  slave.on 'output', (string) ->
-    google.speak string
+  slave.on 'output', (data) ->
+    google.speak data.data, data.language

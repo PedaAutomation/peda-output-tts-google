@@ -2,8 +2,8 @@ lame = require 'lame'
 Speaker = require 'speaker'
 request = require 'request'
 
-speak = (string) ->
-	language = "de" #TODO: put the language somewhere else
+speak = (string, language) ->
+	language = language || "de" #TODO: put the language somewhere else
 
 	url = "http://translate.google.com/translate_tts?tl=" + language + "&q=" + encodeURIComponent(string) 
 
