@@ -9,8 +9,7 @@
   },
   "dependencies": {
       "player": "turingou/player",
-      "coffee-script": "1.7.1",
-      "request": "2.40.0"
+      "coffee-script": "1.7.1"     
   }
 
 }
