@@ -1,0 +1,16 @@
+{
+  "name": "peda-output-tts-google",
+  "description": "Google TTS module for Peda",
+  "version": "0.0.1",
+  "main": "index.js",
+  "author": {
+      "name": "Julius Möller",
+      "email": "the.porenta@web.de"
+  },
+  "dependencies": {
+      "player": "turingou/player",
+      "coffee-script": "1.7.1",
+      "request": "2.40.0"
+  }
+
+}
