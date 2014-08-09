@@ -1,7 +1,7 @@
 fs = require 'fs'
 lame = require 'lame'
 Speaker = require 'speaker'
- 
+request = require 'request'
 
 output = "Hallo, ich bin Peda Baumert. Ich bin Physiklehrer."
 language = "de"
@@ -19,5 +19,3 @@ fileStream.on 'close', ->
 		this.pipe new Speaker (format)
 
 request(url).pipe (fileStream)
-
-
