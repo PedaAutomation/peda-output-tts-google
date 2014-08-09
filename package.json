@@ -8,8 +8,10 @@
       "email": "the.porenta@web.de"
   },
   "dependencies": {
-      "player": "turingou/player",
-      "coffee-script": "1.7.1"     
+      "lame": "1.1.1",
+      "speaker": "0.2.1",
+      "request": "*",
+      "coffee-script": "1.7.1"
   }
 
 }
